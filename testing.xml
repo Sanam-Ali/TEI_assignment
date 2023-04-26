@@ -6,27 +6,29 @@
     <!-- This is a very minimal header -->
     <teiHeader>
         <fileDesc>
+            
             <titleStmt>
-                <title>Letter to Leslie Gunston</title>
+                <title>Hösten och Vintern 1951-52</title>
                 <author>Wilfred Owen</author>
                 <editor>Renée van Baalen</editor>
                 <principal>Sanam Ali</principal>
                 <meeting>An intensive Introduction to the Guidelines of the Text Encoding
                     Initiative</meeting>
                 <respStmt>
-                    <resp>Improved Encoding</resp>
+                    <resp>Encode the text with TEI elements</resp>
                     <name>Sanam</name>
                 </respStmt>
             </titleStmt>
             <editionStmt>
                 <edition>First Edition</edition>
             </editionStmt>
-            <extent>260 words</extent>
+            <extent>
+                <measure unit="pages" quantity="332">332 pages of the source catalog</measure></extent>
             <publicationStmt>
                 <publisher>TEI @Borås</publisher>
                 <pubPlace>
                     <address>
-                        <orgName>Borås Högskolan</orgName>
+                        <orgName>University of Borås</orgName>
                         <street>Allegatan</street>
                         <settlement>Borås</settlement>
                         <postCode>506943</postCode>
@@ -35,9 +37,9 @@
                 </pubPlace>
                 <distributor> IT services, Borås Högskolan </distributor>
                 <authority>Sanam Ali</authority>
-                <date when="2023-03-08"/>
+                <date when="2023-05-05"/>
 
-                <idno source="https://www.google.com/">L_WO_1917</idno>
+                <idno>W_F_1951_52</idno>
                 <availability>
                     <licence> Licenced with a <ref
                             target="https://creativecommons.org/licenses/by-nc/4.0/"> Creative
@@ -45,13 +47,13 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note>Transcribed for a TEI Workshop</note>
+                <note>Completed for a TEI assignment for the course of Digital Curtural Heritage Spring 2023</note>
             </notesStmt>
             <sourceDesc>
 
                 <biblStruct>
                     <analytic>
-                        <title>Letter to Leslie Gunston</title>
+                        <title xml:lang="sv">Hösten och Vintern 1951-52</title>
                         <author>Wilfred Owen</author>
                     </analytic>
                     <monogr>
