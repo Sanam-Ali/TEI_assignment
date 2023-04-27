@@ -6,16 +6,15 @@
     <!-- This is a very minimal header -->
     <teiHeader>
         <fileDesc>
-            
+
             <titleStmt>
                 <title>Hösten och Vintern 1951-52</title>
-                <author>Wilfred Owen</author>
-                <editor>Renée van Baalen</editor>
+                <editor>Editing Department at A.B Wiskadals Fabrik</editor>
                 <principal>Sanam Ali</principal>
-                <meeting>An intensive Introduction to the Guidelines of the Text Encoding
-                    Initiative</meeting>
+
                 <respStmt>
-                    <resp>Encode the text with TEI elements</resp>
+                    <resp>Encode the source text with TEI elements and customization of TEI
+                        schema</resp>
                     <name>Sanam</name>
                 </respStmt>
             </titleStmt>
@@ -23,9 +22,10 @@
                 <edition>First Edition</edition>
             </editionStmt>
             <extent>
-                <measure unit="pages" quantity="332">332 pages of the source catalog</measure></extent>
+                <measure unit="pages" quantity="332">332 pages of the source
+                catalog</measure></extent>
             <publicationStmt>
-                <publisher>TEI @Borås</publisher>
+                <publisher>Library and Information Services Department Högskola i Borås</publisher>
                 <pubPlace>
                     <address>
                         <orgName>University of Borås</orgName>
@@ -47,30 +47,22 @@
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note>Completed for a TEI assignment for the course of Digital Curtural Heritage Spring 2023</note>
+                <note>Completed for a TEI assignment for the course of Digital Curtural Heritage
+                    Spring 2023</note>
             </notesStmt>
             <sourceDesc>
 
                 <biblStruct>
                     <analytic>
                         <title xml:lang="sv">Hösten och Vintern 1951-52</title>
-                        <author>Wilfred Owen</author>
                     </analytic>
                     <monogr>
-                        <title>The Wilfred Owen Collection</title>
-                        <ref target="ttp://www.oucs.ox.ac.uk/ww1lit/collections/document/5243">First
-                            World War Poetry Digital Archive</ref>
                         <imprint>
-                            <publisher>The First World War Poetry Digital Archive</publisher>
-                            <pubPlace>Oxford</pubPlace>
-                            <biblScope unit="page" n="2">Two pages</biblScope>
+                            <pubPlace/>
                         </imprint>
                     </monogr>
-                    <relatedItem>
-                        <bibl>The source of this digital resource is a copy from the
-                                <distributor>Harry Ransom Centre</distributor></bibl>
-                    </relatedItem>
                 </biblStruct>
+
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
