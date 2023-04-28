@@ -116,19 +116,21 @@
                 <figDesc> An image of pages 40 and 41 from A.B Wiskadals Fabrik Catalog. It includes
                     information regarding the various styles of jumpers available during the catalog
                     issue of Fall/winter 1951 and 1952</figDesc>
-                <graphic xml:id="pg40_41_full" url="asset/img/pg_40_41.jpeg"/>
+                <graphic xml:id="pg40_41_full" url="version2/asset/img/pg_40_41.png"/>
+                <graphic xml:id="pg_40" url="asset/img/pg_40.jpeg"/>
+                <graphic xml:id="pg_41" url="asset/img/pg_41.jpeg"/>
             </figure>
         </surface>
     </facsimile>
-    <text xml:lang="sv">
+    <text xml:lang="swe">
         <body>
             <pb n="40"/>
             <div>
                 <head rend="case(allcaps)"> ELEGANTA JUMPERNYHETER </head>
             </div>
-            <div>
+            <div type="column" n="1">
                 <list>
-                    <cb n="1"/>
+
                     <item>
                         <p>
                             <idno>Y 1421</idno>
@@ -136,10 +138,11 @@
                                 med <fcat:design type="sleeve"> trekvartslång ärm </fcat:design>,
                                     <fcat:design type="buttons">knäppning i ryggen</fcat:design>,
                                     <fcat:design type="nekline">rysch med
-                                    genom-dragssnodd</fcat:design> vid halsen samt »handplockat»
-                                effektfullt mönster. Fin-nes <fcat:color>istålgrått, brunt eller
-                                    svart</fcat:color>. Storlek <fcat:size>42</fcat:size>. En piffig
-                                ny- het till billigt pris. </desc>
+                                    genom-dragssnodd</fcat:design> vid halsen samt <fcat:design
+                                    type="embroidery">»handplockat» effektfullt
+                                    mönster</fcat:design>. Fin-nes <fcat:color>istålgrått, brunt
+                                    eller svart</fcat:color>. Storlek <fcat:size>42</fcat:size>. En
+                                piffig ny- het till billigt pris. </desc>
                             <desc type="price">Pris pr styck <num>24.65</num></desc></p>
                     </item>
                     <item>
@@ -160,9 +163,10 @@
                                 och tillverkad av extra prima
                                 <fcat:fabric>helyllegarn</fcat:fabric>. Modell med <fcat:design
                                     type="neckline">båt-skärning</fcat:design>, <fcat:design
-                                    type="sleeve">trekvartslång ärm</fcat:design> samt inplockat
-                                effektfullt mönster i vitt. En modell som Ni kommer att fä mycket
-                                glädje utav. Storlek <fcat:size>42</fcat:size>. Färger:
+                                    type="sleeve">trekvartslång ärm</fcat:design> samt <fcat:design
+                                    type="embroidery">inplockat effektfullt mönster i
+                                    vitt</fcat:design>. En modell som Ni kommer att fä mycket glädje
+                                utav. Storlek <fcat:size>42</fcat:size>. Färger:
                                     <fcat:color>kornblått/vitt, grått/vitt, cyklamen/vitt eller
                                     ljusgrönt/vitt</fcat:color>.</desc>
                             <desc type="price"> Pris pr styck <num>22.50</num>
@@ -179,15 +183,19 @@
                                 nätt och alltid lika populär modell.</desc>
                             <desc type="price">Pris pr styck endast <num>18.90</num></desc></p>
                     </item>
-                    <cb n="2"/>
+                </list>
+            </div>
+            <div type="column" n="2">
+                <list>
                     <item>
                         <p><idno>Y 1429 </idno>
                             <desc>Damjumper i <fcat:color>chokladbrun</fcat:color> färg. Modern
                                 modell med <fcat:design type="sleeve">trekvarts-lång
                                     ärm</fcat:design>, <fcat:design type="neckline"
-                                    >pulloverhals</fcat:design> samt kurbelbroderier på överpartiet
-                                samt på överärmarna. Patentstickad av ett fintrådigt extra prima
-                                    <fcat:fabric>helyllegarn</fcat:fabric>. Storlek
+                                    >pulloverhals</fcat:design> samt <fcat:design type="emroidery"
+                                    >kurbelbroderier på överpartiet samt på
+                                    överärmarna</fcat:design>. Patentstickad av ett fintrådigt extra
+                                prima <fcat:fabric>helyllegarn</fcat:fabric>. Storlek
                                     <fcat:size>42</fcat:size>.</desc>
                             <desc type="price">Pris pr styck <num>18.25</num></desc></p>
                     </item>
@@ -197,11 +205,12 @@
                             <desc>Här en ny extranyhet av Eisers välkända tillverkning. Dam-jumper,
                                 patentstickad av prima <fcat:fabric>helyllegarn</fcat:fabric>.
                                 Förstklassig passform och konfektion garanteras. Modell med
-                                    <fcat:design type="neckline">rund halsringning samt tre-radig
-                                    garnering</fcat:design> vid halsen i guldfärg. <fcat:design
-                                    type="sleeve">Lång ärm</fcat:design>. En hyperelegant ny-het.
-                                Storlek <fcat:size>42 och 44</fcat:size>. Finnes i
-                                    <fcat:color>brunt, svart eller petrol-grönt</fcat:color>.</desc>
+                                    <fcat:design type="neckline">rund halsringning</fcat:design>
+                                    samt<fcat:design type="embroidery"> tre-radig garnering vid
+                                    halsen i guldfärg</fcat:design>.<fcat:design type="sleeve">Lång
+                                    ärm</fcat:design>. En hyperelegant ny-het. Storlek <fcat:size>42
+                                    och 44</fcat:size>. Finnes i <fcat:color>brunt, svart eller
+                                    petrol-grönt</fcat:color>.</desc>
                             <desc type="price">Pris pr styck <num>28.50</num></desc></p>
                     </item>
                     <item>
@@ -209,7 +218,7 @@
                             <idno>Y 1433</idno>
                             <desc>Damjumper med lätt ruggad yttersida, <fcat:design type="neckline"
                                     >rund pulloverhals</fcat:design>, <fcat:design type="sleeve"
-                                    >lång ärm </fcat:design>samt resårstickade muddar och
+                                    >lång ärm samt resårstickade muddar </fcat:design> och
                                 midjelinning. Resårstickad av prima
                                     <fcat:fabric>helyllegarn</fcat:fabric> i en elegant
                                 slätstickning. Finnes i <fcat:color>grått, cykla-menrött, ljusblått
@@ -224,8 +233,9 @@
                             <idno> Y 1435</idno>
                             <desc>Damjumper i en ny piffig modell, <fcat:design type="neckline"
                                     >krage med ny skärning</fcat:design>, <fcat:design type="sleeve"
-                                    >lång ärm</fcat:design> samt med ett effektfullt »handplockat»
-                                mönster framtill. Patentstickad av extra prima <fcat:fabric>helylle
+                                    >lång ärm</fcat:design> samt med ett effektfullt <fcat:design
+                                    type="emboridery">»handplockat» mönster framtill</fcat:design>.
+                                Patentstickad av extra prima <fcat:fabric>helylle
                                     kamgarn</fcat:fabric> i en mjuk och behag-lig stickning. Storlek
                                     <fcat:size>42</fcat:size>. Färger: <fcat:color>diamantsvart,
                                     stålgrått eller brunt</fcat:color>. En kontinental nyhet till
@@ -241,151 +251,158 @@
 
 
             <pb n="41"/>
-            <cb n="1"/>
-            <div>
-                <list>
-                    <item>
-                        <p>
-                            <idno>Y 1439</idno>
-                            <desc>Damjumper av Eisers välkända fabrikat vilket garanterar per-fekt
-                                passform och snitt. Modell med <fcat:design type="neckline"
-                                    >spetsmönstrad halslinning</fcat:design>, <fcat:design
-                                    type="sleeve">holk-ärm</fcat:design>, samt konststickad i
-                                rutstickning. Ett förnämt plagg till extra billigt pris. Tillverkad
-                                av mjuk och smidig kvalitet
-                                    <fcat:fabric>ylle/rayon/nylon</fcat:fabric>. Storlek
-                                    <fcat:size>42</fcat:size>. Färger: <fcat:color>svart, stålgrått,
-                                    brunt eller petrolgrönt</fcat:color>.</desc>
-                            <desc type="price">Pris pr styck endast <num>16.70</num></desc>
-                        </p>
-                    </item>
-                </list>
-            </div>
-            <div>
-                <head>OBS. PRISET 13.45</head>
-            </div>
+            <div type="column" n="1">
+                <div>
+                    <list>
+                        <item>
+                            <p>
+                                <idno>Y 1439</idno>
+                                <desc>Damjumper av Eisers välkända fabrikat vilket garanterar
+                                    per-fekt passform och snitt. Modell med <fcat:design
+                                        type="neckline">spetsmönstrad halslinning</fcat:design>,
+                                        <fcat:design type="sleeve">holk-ärm</fcat:design>, samt
+                                    konststickad i rutstickning. Ett förnämt plagg till extra
+                                    billigt pris. Tillverkad av mjuk och smidig kvalitet
+                                        <fcat:fabric>ylle/rayon/nylon</fcat:fabric>. Storlek
+                                        <fcat:size>42</fcat:size>. Färger: <fcat:color>svart,
+                                        stålgrått, brunt eller petrolgrönt</fcat:color>.</desc>
+                                <desc type="price">Pris pr styck endast <num>16.70</num></desc>
+                            </p>
+                        </item>
+                    </list>
+                </div>
+                <div>
+                    <head>OBS. PRISET 13.45</head>
+                </div>
 
-            <div>
-                <list>
-                    <item>
-                        <p>
-                            <idno>Y 1441</idno>
-                            <desc>Damjumper konststickad av en mjuk och smidig kvalitet
-                                    <fcat:fabric>ylle/rayon/nylon</fcat:fabric>. Modell med
-                                    <fcat:design type="sleeve">kort ärm med mudd</fcat:design>,
-                                resårstickad midje-linning samt <fcat:design type="neckline">rund
-                                    pulloverhals</fcat:design>. Finnes i <fcat:color>svart,
-                                    stålgrått, brunt eller petrolgrönt</fcat:color>. Storlek
-                                    <fcat:size>42</fcat:size>. En tunn, smidig jumpernyhet till
-                                fabulöst billigt pris.</desc>
-                            <desc type="price"> Pris pr styck endast<num>13.45</num>
-                            </desc>
-                        </p>
-                    </item>
-                </list>
-            </div>
-            <div>
-                <head>Kraftigt ruggad. ANGORA IMIT.</head>
-            </div>
-            <div>
-                <list>
+                <div>
+                    <list>
+                        <item>
+                            <p>
+                                <idno>Y 1441</idno>
+                                <desc>Damjumper konststickad av en mjuk och smidig kvalitet
+                                        <fcat:fabric>ylle/rayon/nylon</fcat:fabric>. Modell med
+                                        <fcat:design type="sleeve">kort ärm med mudd</fcat:design>,
+                                    resårstickad midje-linning samt <fcat:design type="neckline"
+                                        >rund pulloverhals</fcat:design>. Finnes i
+                                        <fcat:color>svart, stålgrått, brunt eller
+                                        petrolgrönt</fcat:color>. Storlek <fcat:size>42</fcat:size>.
+                                    En tunn, smidig jumpernyhet till fabulöst billigt pris.</desc>
+                                <desc type="price"> Pris pr styck endast<num>13.45</num>
+                                </desc>
+                            </p>
+                        </item>
+                    </list>
+                </div>
+                <div>
+                    <head>Kraftigt ruggad. ANGORA IMIT.</head>
+                </div>
+                <div>
+                    <list>
 
-                    <item>
-                        <p>
-                            <idno>Y 1443 </idno>
-                            <desc>Damjumper med yttersidan liknande äkta angora. Modell med
-                                    <fcat:design type="sleeve"> kort ärm</fcat:design>, <fcat:design
-                                    type="neckline">båtskärning</fcat:design> vid halsen samt
-                                resårstickad midjelinning. En utsökt elegant nyhet till billigt
-                                pris. Finnes i <fcat:color>gammalrosa, svart, ljus-grått,
-                                    petrolgrönt eller kanelbrunt</fcat:color>. Storlek <fcat:size>40
-                                    och 42</fcat:size> . Stickad av extra prima mjukt och smidigt
+                        <item>
+                            <p>
+                                <idno>Y 1443 </idno>
+                                <desc>Damjumper med yttersidan liknande äkta angora. Modell med
+                                        <fcat:design type="sleeve"> kort ärm</fcat:design>,
+                                        <fcat:design type="neckline">båtskärning</fcat:design> vid
+                                    halsen samt resårstickad midjelinning. En utsökt elegant nyhet
+                                    till billigt pris. Finnes i <fcat:color>gammalrosa, svart,
+                                        ljus-grått, petrolgrönt eller kanelbrunt</fcat:color>.
+                                    Storlek <fcat:size>40 och 42</fcat:size> . Stickad av extra
+                                    prima mjukt och smidigt
                                     <fcat:fabric>yllegarn</fcat:fabric>.</desc>
-                            <desc type="price">Pris pr styck endast <num>15.60</num></desc>
-                        </p>
-                    </item>
-                    <item>
-                        <p>
-                            <idno>Y 1445</idno>
-                            <desc>Damjumper tillverkad av extra prima
-                                    <fcat:fabric>helyllegarn</fcat:fabric> i slätstick-ning. Modell
-                                med <fcat:design type="sleeve">kort ärm</fcat:design>, <fcat:design
-                                    type="neckline">plisserad halslinning</fcat:design> samt
-                                resårstickad midjelinning. Finnes i <fcat:color>svart, brunt eller
-                                    marinblått</fcat:color>. Storlek <fcat:size>42</fcat:size>. En
-                                exklusiv nyhet till billigt pris.</desc>
-                            <desc type="price">Pris pr styck endast <num>22.90</num></desc>
-                        </p>
-                    </item>
-                </list>
+                                <desc type="price">Pris pr styck endast <num>15.60</num></desc>
+                            </p>
+                        </item>
+                        <item>
+                            <p>
+                                <idno>Y 1445</idno>
+                                <desc>Damjumper tillverkad av extra prima
+                                        <fcat:fabric>helyllegarn</fcat:fabric> i slätstick-ning.
+                                    Modell med <fcat:design type="sleeve">kort ärm</fcat:design>,
+                                        <fcat:design type="neckline">plisserad
+                                        halslinning</fcat:design> samt resårstickad midjelinning.
+                                    Finnes i <fcat:color>svart, brunt eller marinblått</fcat:color>.
+                                    Storlek <fcat:size>42</fcat:size>. En exklusiv nyhet till
+                                    billigt pris.</desc>
+                                <desc type="price">Pris pr styck endast <num>22.90</num></desc>
+                            </p>
+                        </item>
+                    </list>
+                </div>
             </div>
-            <cb n="2"/>
-            <div>
-                <head>SPETSBLUS OBS. Endast 10.00</head>
-            </div>
-            <div>
-                <list>
-                    <item>
-                        <p>
-                            <idno>Y 1447</idno>
-                            <desc> Spetsblus av prima mjukt och smidigt
-                                    <fcat:fabric>bomullsgarn</fcat:fabric> i ett ytterst elegant
-                                genombrutet »spetsmönster». Modell med <fcat:design type="neckline"
-                                    >krage i ny skärning</fcat:design>,<fcat:design type="sleeve"
-                                    >kort ärm med uppvikt mudd</fcat:design> samt resårstickad
-                                midjelinning. En myc-ket populär nyhet till fabulöst billigt pris.
-                                Storlek <fcat:size>40 och 42</fcat:size>.</desc>
-                            <desc>Pris pr styck endast <num>10.00</num></desc>
-                        </p>
-                    </item>
-                    <item>
-                        <p>
-                            <idno>Y 1449</idno> Damjumper med <fcat:design type="sleeve">lång
-                                ärm</fcat:design>. Hela jumpern mönsterstickad i nätmönster och
-                            tillverkad av extra prima <fcat:fabric>helylle kamgarn</fcat:fabric>. En
-                            mycket elegant och välsittande jumper till billigt pris. Storlek
-                                <fcat:size>42</fcat:size>. Lev. i <fcat:color>stålgrått, gammalrosa
-                                eller diamantsvart</fcat:color>. Köp genast. Ni blir belåten. <desc
-                                type="price">Pris pr styck endast <num>25.40</num>
-                            </desc>
-                        </p>
-                    </item>
-                    <item>
-                        <p>
-                            <idno>Y 1451</idno>
-                            <desc>Damjumper i halvlång modell stickad i ett extra prima im-porterat
-                                    <fcat:fabric>2-trådigt helyllegarn</fcat:fabric> i en smidig
-                                rundstickning. Trevlig modell med <fcat:design type="neckline"
-                                    >båtskärning</fcat:design> vid halsen, <fcat:design
-                                    type="sleeve">trekvartslång ärm</fcat:design> samt bård nedtill
-                                och över bröstet. Finnes i <fcat:color>svart, cyklamenrött,
-                                    kanelbrunt, ljus-grått eller ljusgrönt</fcat:color>. Storlek
+            <div type="column" n="2">
+                <div>
+                    <head>SPETSBLUS OBS. Endast 10.00</head>
+                </div>
+                <div>
+                    <list>
+                        <item>
+                            <p>
+                                <idno>Y 1447</idno>
+                                <desc> Spetsblus av prima mjukt och smidigt
+                                        <fcat:fabric>bomullsgarn</fcat:fabric> i ett ytterst elegant
+                                    genombrutet »spetsmönster». Modell med <fcat:design
+                                        type="neckline">krage i ny
+                                        skärning</fcat:design>,<fcat:design type="sleeve">kort ärm
+                                        med uppvikt mudd</fcat:design> samt resårstickad
+                                    midjelinning. En myc-ket populär nyhet till fabulöst billigt
+                                    pris. Storlek <fcat:size>40 och 42</fcat:size>.</desc>
+                                <desc>Pris pr styck endast <num>10.00</num></desc>
+                            </p>
+                        </item>
+                        <item>
+                            <p>
+                                <idno>Y 1449</idno> Damjumper med <fcat:design type="sleeve">lång
+                                    ärm</fcat:design>. Hela jumpern mönsterstickad i nätmönster och
+                                tillverkad av extra prima <fcat:fabric>helylle
+                                kamgarn</fcat:fabric>. En mycket elegant och välsittande jumper till
+                                billigt pris. Storlek <fcat:size>42</fcat:size>. Lev. i
+                                    <fcat:color>stålgrått, gammalrosa eller
+                                    diamantsvart</fcat:color>. Köp genast. Ni blir belåten. <desc
+                                    type="price">Pris pr styck endast <num>25.40</num>
+                                </desc>
+                            </p>
+                        </item>
+                        <item>
+                            <p>
+                                <idno>Y 1451</idno>
+                                <desc>Damjumper i halvlång modell stickad i ett extra prima
+                                    im-porterat <fcat:fabric>2-trådigt helyllegarn</fcat:fabric> i
+                                    en smidig rundstickning. Trevlig modell med <fcat:design
+                                        type="neckline">båtskärning</fcat:design> vid halsen,
+                                        <fcat:design type="sleeve">trekvartslång ärm</fcat:design>
+                                    samt <fcat:design type="embroidery">bård nedtill och över bröstet</fcat:design>. Finnes i <fcat:color>svart,
+                                        cyklamenrött, kanelbrunt, ljus-grått eller
+                                        ljusgrönt</fcat:color>. Storlek
                                     <fcat:size>42</fcat:size>.</desc>
-                            <desc type="price">Pris pr styck endast <num>15.75</num></desc>
-                        </p>
-                    </item>
-                </list>
-            </div>
-            <div>
-                <head>DAMJACKA MED "PLYSCHKRAGE"</head>
-            </div>
-            <div>
-                <list>
-                    <item>
-                        <p>
-                            <idno>Y 1453</idno><desc> Damsportjacka tillverkad av en mjuk och smidig
-                                    <fcat:fabric>filtliknande ylletrikå</fcat:fabric> i
-                                    <fcat:color>grön</fcat:color> färg. Jackan är försedd med
-                                    <fcat:design type="buttons">två fickor i
-                                bälgfaçon</fcat:design>, dubbla muddar och midjelinning samt med
-                                    »<fcat:design type="neckline">plyschkrage</fcat:design>» i
-                                mörk-brunt. En kraftig och slitstark sportjacka som säljes i
-                                mas-sor. Storlek <fcat:size>42</fcat:size>.</desc>
-                            <desc type="price">Pris pr styck endast <num>33.60</num>
-                            </desc>
-                        </p>
-                    </item>
-                </list>
+                                <desc type="price">Pris pr styck endast <num>15.75</num></desc>
+                            </p>
+                        </item>
+                    </list>
+                </div>
+                <div>
+                    <head>DAMJACKA MED "PLYSCHKRAGE"</head>
+                </div>
+                <div>
+                    <list>
+                        <item>
+                            <p>
+                                <idno>Y 1453</idno><desc> Damsportjacka tillverkad av en mjuk och
+                                    smidig <fcat:fabric>filtliknande ylletrikå</fcat:fabric> i
+                                        <fcat:color>grön</fcat:color> färg. Jackan är försedd med
+                                        <fcat:design type="buttons">två fickor i
+                                        bälgfaçon</fcat:design>, dubbla muddar och midjelinning samt
+                                    med »<fcat:design type="neckline">plyschkrage</fcat:design>» i
+                                    mörk-brunt. En kraftig och slitstark sportjacka som säljes i
+                                    mas-sor. Storlek <fcat:size>42</fcat:size>.</desc>
+                                <desc type="price">Pris pr styck endast <num>33.60</num>
+                                </desc>
+                            </p>
+                        </item>
+                    </list>
+                </div>
             </div>
             <fw type="footer"><orgName>A.-B. WISKADALS
                 FABRIK</orgName>,<placeName>BORÅS</placeName></fw>
