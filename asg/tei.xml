@@ -116,9 +116,9 @@
                 <figDesc> An image of pages 40 and 41 from A.B Wiskadals Fabrik Catalog. It includes
                     information regarding the various styles of jumpers available during the catalog
                     issue of Fall/winter 1951 and 1952</figDesc>
-                <graphic xml:id="pg40_41_full" url="version2/asset/img/pg_40_41.png"/>
-                <graphic xml:id="pg_40" url="asset/img/pg_40.jpeg"/>
-                <graphic xml:id="pg_41" url="asset/img/pg_41.jpeg"/>
+                <graphic xml:id="pg40_41_full" url="asg/asset/img/pg_40_41.jpg"/>
+                <graphic xml:id="pg_40" url="asg/asset/img/pg_40.jpg"/> <!--png maybe-->
+                <graphic xml:id="pg_41" url="asg/asset/img/pg_41.jpg"/>
             </figure>
         </surface>
     </facsimile>
