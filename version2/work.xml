@@ -107,7 +107,19 @@
             <change when="2012-02"><persName> Renée van Baalen</persName> transcribed the letter to
                     <title>Leslie Gunston document</title></change>
         </revisionDesc>
+
     </teiHeader>
+    <facsimile>
+        <surface xml:id="pg40_41">
+            <figure>
+                <label>Page 40 and 41 </label>
+                <figDesc> An image of pages 40 and 41 from A.B Wiskadals Fabrik Catalog. It includes
+                    information regarding the various styles of jumpers available during the catalog
+                    issue of Fall/winter 1951 and 1952</figDesc>
+                <graphic xml:id="pg40_41_full" url="asset/img/pg_40_41.jpeg"/>
+            </figure>
+        </surface>
+    </facsimile>
     <text xml:lang="sv">
         <body>
             <pb n="40"/>
