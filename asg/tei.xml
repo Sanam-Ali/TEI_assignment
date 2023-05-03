@@ -7,26 +7,26 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter to Leslie Gunston</title>
-                <author>Wilfred Owen</author>
-                <editor>Renée van Baalen</editor>
+                <title>A.B Wiskadals Fabrik, Hösten och Vintern 1951-52: TEI Transcription</title>
+                <author>A.B Wiskadals Fabrik</author>
+                <editor>Åhlén &amp; Åkerlund</editor>
                 <principal>Sanam Ali</principal>
-                <meeting>An intensive Introduction to the Guidelines of the Text Encoding
-                    Initiative</meeting>
                 <respStmt>
-                    <resp>Improved Encoding</resp>
-                    <name>Sanam</name>
+                    <resp>Encode the source text with TEI elements</resp>
+                    <name>Sanam Ali</name>
                 </respStmt>
             </titleStmt>
             <editionStmt>
                 <edition>First Edition</edition>
             </editionStmt>
-            <extent>260 words</extent>
+            <extent>
+                <measure unit="pages" quantity="332">332 pages of the source
+                catalog</measure></extent>
             <publicationStmt>
                 <publisher>TEI @Borås</publisher>
                 <pubPlace>
                     <address>
-                        <orgName>Borås Högskolan</orgName>
+                        <orgName>University of Borås</orgName>
                         <street>Allegatan</street>
                         <settlement>Borås</settlement>
                         <postCode>506943</postCode>
@@ -35,80 +35,71 @@
                 </pubPlace>
                 <distributor> IT services, Borås Högskolan </distributor>
                 <authority>Sanam Ali</authority>
-                <date when="2023-03-08"/>
+                <date when="2023-05-05"/>
 
-                <idno source="https://www.google.com/">L_WO_1917</idno>
                 <availability>
                     <licence> Licenced with a <ref
                             target="https://creativecommons.org/licenses/by-nc/4.0/"> Creative
-                            Commons Attribution </ref>licence. </licence>
+                            Commons Attribution </ref>licence. <p> The physical catalog owned by the
+                            Textile Museum Borås. Transciption is distributed under license CC BY-NC
+                            4.0</p>
+                    </licence>
                 </availability>
             </publicationStmt>
             <notesStmt>
-                <note>Transcribed for a TEI Workshop</note>
+                <note>Completed for a TEI assignment for the course of Digital Curtural Heritage
+                    Spring 2023</note>
             </notesStmt>
             <sourceDesc>
-
-                <biblStruct>
-                    <analytic>
-                        <title>Letter to Leslie Gunston</title>
-                        <author>Wilfred Owen</author>
-                    </analytic>
-                    <monogr>
-                        <title>The Wilfred Owen Collection</title>
-                        <ref target="ttp://www.oucs.ox.ac.uk/ww1lit/collections/document/5243">First
-                            World War Poetry Digital Archive</ref>
-                        <imprint>
-                            <publisher>The First World War Poetry Digital Archive</publisher>
-                            <pubPlace>Oxford</pubPlace>
-                            <biblScope unit="page" n="2">Two pages</biblScope>
-                        </imprint>
-                    </monogr>
-                    <relatedItem>
-                        <bibl>The source of this digital resource is a copy from the
-                                <distributor>Harry Ransom Centre</distributor></bibl>
-                    </relatedItem>
-                </biblStruct>
+                <bibl>
+                    <title>Höstern och Vintern 1951-52</title>
+                    <author>AB Wiskadals Fabrik</author>
+                    <publisher>AB Åetå-tryck</publisher>
+                    <date>1951</date>
+                    <pubPlace>Stockholm</pubPlace>
+                </bibl>
+                <!--  (manuscript description) contains a description of a single identifiable manuscript or other text-bearing object such as an early printed book -->
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Borås</settlement>
+                        <institution>Textile Museum of Borås</institution>
+                    </msIdentifier>
+                    <msContents>
+                        <summary> A hardcover bound copy of the Autumn-Winter 1951-52 clothing
+                            catalog published by Borås clothing and homeware company AB Wiskadals
+                            Fabrik, bound for company director Sara Häggström at an unknown date and
+                            supplied to the authors of this document courtesy of Borås Textile
+                            Musuem. The catalog various categories of items like womenswear,
+                            menswear, kidswear, fabrics, toys, home decor and crockery for purchase.
+                        </summary>
+                    </msContents>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
             <projectDesc>
-                <p>The TEI@Borås project created teaching materials for use in the teaching TEI
-                    workshops</p>
+                <p> This assignment is completed as part of the course "Digital Cultural Heritage
+                    Spring 2023" in Univeristy of Borås. The assignment is to encode a text with
+                    appropriate TEI elements for the understanding of the different TEI elements.
+                </p>
             </projectDesc>
             <editorialDecl>
                 <correction>
-                    <p>Apparent errors have been marked as<gi> sic </gi>but correct readings not
-                        provided</p>
+                    <p>Spellings errors, lexical or printing errros have not been corrected to
+                        maintain authencinity of the original printed catalog</p>
                 </correction>
                 <hyphenation>
-                    <p>Hyphens have been transcribed as they appear</p>
+                    <p>Hyphens have been transcribed as they appeared in the original print</p>
                 </hyphenation>
             </editorialDecl>
         </encodingDesc>
         <profileDesc>
-            <creation>
-                <placeName>Craiglockhart</placeName>
-                <date when="1917-07">July 1917</date>
-            </creation>
-            <handNotes>
-                <handNote>Written in Wilfred Owen's hand</handNote>
-            </handNotes>
             <langUsage>
-                <language ident="en">English</language>
+                <language ident="swe">Swedish</language>
             </langUsage>
-            <textClass>
-                <classCode scheme="http://www.oclc.org/dewey/resources/summaries/default.htm"
-                    >826</classCode>
-            </textClass>
         </profileDesc>
-        <revisionDesc>
-            <change when="2023-03-08"><persName>Sanam Ali</persName> improved the header</change>
-            <change when="2012-02"><persName> Renée van Baalen</persName> transcribed the letter to
-                    <title>Leslie Gunston document</title></change>
-        </revisionDesc>
-
     </teiHeader>
+                       <!--                    Facismile Description                 -->
     <facsimile>
         <surface xml:id="pg40_41">
             <figure>
@@ -117,7 +108,8 @@
                     information regarding the various styles of jumpers available during the catalog
                     issue of Fall/winter 1951 and 1952</figDesc>
                 <graphic xml:id="pg40_41_full" url="asg/asset/img/pg_40_41.jpg"/>
-                <graphic xml:id="pg_40" url="asg/asset/img/pg_40.jpg"/> <!--png maybe-->
+                <graphic xml:id="pg_40" url="asg/asset/img/pg_40.jpg"/>
+                <!--png maybe-->
                 <graphic xml:id="pg_41" url="asg/asset/img/pg_41.jpg"/>
             </figure>
         </surface>
@@ -373,7 +365,8 @@
                                     en smidig rundstickning. Trevlig modell med <fcat:design
                                         type="neckline">båtskärning</fcat:design> vid halsen,
                                         <fcat:design type="sleeve">trekvartslång ärm</fcat:design>
-                                    samt <fcat:design type="embroidery">bård nedtill och över bröstet</fcat:design>. Finnes i <fcat:color>svart,
+                                    samt <fcat:design type="embroidery">bård nedtill och över
+                                        bröstet</fcat:design>. Finnes i <fcat:color>svart,
                                         cyklamenrött, kanelbrunt, ljus-grått eller
                                         ljusgrönt</fcat:color>. Storlek
                                     <fcat:size>42</fcat:size>.</desc>
