@@ -99,7 +99,7 @@
             </langUsage>
         </profileDesc>
     </teiHeader>
-                       <!--                    Facismile Description                 -->
+    <!--                    Facismile Description                 -->
     <facsimile>
         <surface xml:id="pg40_41">
             <figure>
@@ -109,7 +109,7 @@
                     issue of Fall/winter 1951 and 1952</figDesc>
                 <graphic xml:id="pg40_41_full" url="asg/asset/img/pg_40_41.jpg"/>
                 <graphic xml:id="pg_40" url="asg/asset/img/pg_40.jpg"/>
-              
+
                 <graphic xml:id="pg_41" url="asg/asset/img/pg_41.jpg"/>
             </figure>
         </surface>
@@ -121,14 +121,15 @@
                 <head rend="case(allcaps)"> ELEGANTA JUMPERNYHETER </head>
             </div>
             <div type="column" n="1">
+                <!-- Lists have been used to encode each article of clothing as an item -->
                 <list>
-
                     <item>
                         <p>
                             <idno>Y 1421</idno>
+                            <!-- each article of clothing has a unique identifier -->
                             <desc> Damjumper, resårstickad av prima fintrådigt helyllegarn . Modell
-                                med <fcat:design type="sleeve"> trekvartslång ärm </fcat:design>,
-                                    <fcat:design type="buttons">knäppning i ryggen</fcat:design>,
+                                med <fcat:design type="sleeve"> trekvartslång ärm </fcat:design>, <!-- design,color,size and fabric are customized elements -->
+                                <fcat:design type="buttons">knäppning i ryggen</fcat:design>,
                                     <fcat:design type="nekline">rysch med
                                     genom-dragssnodd</fcat:design> vid halsen samt <fcat:design
                                     type="embroidery">»handplockat» effektfullt
@@ -136,6 +137,7 @@
                                     eller svart</fcat:color>. Storlek <fcat:size>42</fcat:size>. En
                                 piffig ny- het till billigt pris. </desc>
                             <desc type="price">Pris pr styck <num>24.65</num></desc></p>
+                        <!-- the price of each article of clothing has been encoded using desc element with price as its type. -->
                     </item>
                     <item>
                         <p>
